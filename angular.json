@@ -58,6 +58,11 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+           
+            "host": "0.0.0.0",
+            "port": 29156
+          },
           "configurations": {
             "production": {
               "browserTarget": "ProjectMgmeTrackerApp_FrontEndUI:build:production"

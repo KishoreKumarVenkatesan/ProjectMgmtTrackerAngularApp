@@ -1,10 +1,25 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { ProjectTaskService } from 'src/service/project-task.service';
+import { Projecttaskdetail } from 'src/model/projecttaskdetail';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent {
   title = 'ProjectMgmeTrackerApp_FrontEndUI';
+
+  ngOnInit() {
+     
+  }
+
+  
 }
+
+
+
+

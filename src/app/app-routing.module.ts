@@ -1,10 +1,19 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule,Routes } from '@angular/router';
+import { from } from 'rxjs';
+import { ProjecttaskListComponent } from './projecttask-list/projecttask-list.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+ 
+  {path:'projecttask-list', component: ProjecttaskListComponent}
+];
+
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  declarations: [],
+  imports: [
+    RouterModule.forRoot(routes)],
+   exports: [RouterModule]
+  
 })
 export class AppRoutingModule { }

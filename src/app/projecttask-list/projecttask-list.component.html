@@ -1,0 +1,48 @@
+<div class="container wrapper">
+     <div class="row">
+    <div class="col-md-12">
+      <div class="inner">
+      <h4>Project Task List</h4>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th  scope="col">Member Name</th>
+            <th  scope="col">Task ID</th>
+            <th  scope="col">Task Name</th>
+            <th  scope="col">Deliverables</th>
+            <th  scope="col">Years Of Experience</th>
+            <th  scope="col">Skill Set</th>
+            <th  scope="col">Current Profile Description</th>
+            <th  scope="col">Project Start Date</th>
+            <th  scope="col">Project End Date</th>
+            <th  scope="col">Allocation Percentage</th>
+            <th  scope="col">Task Start Date</th>
+            <th  scope="col">Task End Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let projecttask of projecttasks">
+            <th scope="row">{{ projecttask.id }}</th>
+            <td> {{ projecttask.memberName }}</td>
+            <td>{{projecttask.taskID}}</td>
+            <td>{{projecttask.taskName}}</td>
+            <td>{{projecttask.deliverables}}</td>
+            <td>{{projecttask.yearsOfExperience}}</td>
+            <td>{{projecttask.skillSet}}</td>
+            <td>{{projecttask.currentProfileDescription}}</td>
+            <td>{{projecttask.projectStartDate}}</td>
+            <td>{{projecttask.projectEndDate}}</td>
+            <td>{{projecttask.allocationPercentage}}</td>
+            <td>{{projecttask.taskStartDate}}</td>
+            <td>{{projecttask.taskEndDate}}</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>  
+  
+       
+    </div>
+    
+  </div>
