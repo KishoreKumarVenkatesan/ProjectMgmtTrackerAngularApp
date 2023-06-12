@@ -1,5 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { ComponentFixture, TestBed, inject } from '@angular/core/testing';
 import { ProjecttaskListComponent } from './projecttask-list.component';
 
 describe('ProjecttaskListComponent', () => {

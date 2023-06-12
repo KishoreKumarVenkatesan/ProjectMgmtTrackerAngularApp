@@ -5,7 +5,7 @@ export class Projecttaskdetail {
     taskName: string;
     deliverables: string;
     yearsOfExperience: string;
-    skillSet: string;
+    skillset: string;
     currentProfileDescription: string;
     projectStartDate: Date;
     projectEndDate: Date;
